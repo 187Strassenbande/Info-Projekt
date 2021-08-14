@@ -8,4 +8,6 @@ Mathematische Schwingungen können nicht nur als Wellen (auf und ab), sondern au
 
 ![gif](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Sinus_und_Cosinus_am_Einheitskreis.gif/800px-Sinus_und_Cosinus_am_Einheitskreis.gif)
 
-Wenn man nun mehrere Schwingungen addiert, kann man zur visualisierung auch mehrere Einheitskreise "addieren", das heißt die Spitze der einen Schwingung als Ausgangspunkt für den zweiten Einheistkreis nutzen.
+Wenn man nun mehrere Schwingungen addiert, kann man zur visualisierung auch mehrere Einheitskreise "addieren", das heißt die Spitze der einen Schwingung als Ausgangspunkt für den zweiten Einheistkreis nutzen:
+
+![gif](https://upload.wikimedia.org/wikipedia/commons/b/bd/Fourier_series_square_wave_circles_animation.svg)
