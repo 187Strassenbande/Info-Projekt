@@ -1,4 +1,5 @@
 # __Info-Projekt__
+
 # Idee
 
 ## Hintergrund
@@ -25,7 +26,7 @@ Dieser Prozess lässt sich mathematisch anhand der _Fourier Analyse_ beschreiben
 ![Image](https://imgur.com/QEgyWxD.png)
 >Abb.4: Zerlegung einer Schwingung in ihre Frequenzen. __Spalte 1__: kleinste Schwingung. __Spalte 2__: alle Schwingungen einzelnd dargestellt. __Spalte 3__: alle Schwingungen addiert dargestellt. __Spalte 4__: die "Frequenzen", die in der Schwingung aus Spalte 3 stecken (d.h die "Frequenzen" der Schwingungen aus Spalte 2).
 
-Diese Schwingung muss nicht im Format einer Schwingung im karthesischen Koordinatensystem bereit gestellt werden, sondern kann auch eine duch addierte Einheitskreise zustande gekommene Linie sein.
+Diese Schwingung muss nicht im Format einer Schwingung im karthesischen Koordinatensystem bereit gestellt werden, sondern kann auch eine durch addierte Einheitskreise zustande gekommene Linie sein.
 
 ## Plan
 
@@ -34,3 +35,14 @@ Der Plan ist diese mathemtaische Theorie zu nutzen, um eine beliebige Vektorgrap
 - Ein Interface, in dem eine svg Datei hochgeladen werden kann
 - Die Möglichkeit die Auflösung, anhand der Anzahl an genutzten Einheitskreise, zu ändern
 - Das Programm soll in [Vlang](https://github.com/vlang/v) geschrieben sein
+
+# Umsetzung
+
+Aus den Voraussetzungen ergeben sich folgender grober Ablauf im Programm fast direkt:
+
+- Die svg Datei muss in __eine__ zusammenhängende Linie umgewandelt werden
+  - dies kann dadurch passieren, dass sie zuerst in eine Reihe an karthesische Koordinaten umgewandelt wird
+  - und dann mit eine _Bezier Kurve_ angenähert wird
+- Die daraus resultierende zusammenhängende Linie muss mithilfe der _Fourier Analyse_ in einzelne Schwingungen zerlegt werden
+- Die Schwingungen müssen als addierte Einheitskreise gerendert werden
+- Am Ende der Kreise muss eine Linie gezeichnet werden
