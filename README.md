@@ -34,7 +34,6 @@ Der Plan ist diese mathemtaische Theorie zu nutzen, um eine beliebige Vektorgrap
 
 - Ein Interface, in dem eine svg Datei hochgeladen werden kann
 - Die Möglichkeit die Auflösung, anhand der Anzahl an genutzten Einheitskreise, zu ändern
-- Das Programm soll in [Vlang](https://github.com/vlang/v) geschrieben sein
 
 # Umsetzung
 
